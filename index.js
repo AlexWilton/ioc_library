@@ -24,9 +24,7 @@ const IOCContainer = class {
         const registered = this.#store[type]
         if (!registered || registered.length == 0 || !waiting || waiting.length == 0) return
 
-        console.log(waiting)
         waiting.forEach(waitingResolve => {
-            console.log(waitingResolve)
             waitingResolve(registered)
         })
     }

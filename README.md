@@ -20,5 +20,5 @@ Simple Javascript library for supporting Inversion of Control (IoC).
 
 
 ### Testing
-Simple run `npm run test` (this will runs mocha tests defined in test.js)
+Simply run `npm run test` (this will run mocha tests defined in test.js)
 ![Testing Screenshot](https://i.ibb.co/c6vt1Bw/Screen-Shot-2021-08-06-at-1-04-35-PM.png)
